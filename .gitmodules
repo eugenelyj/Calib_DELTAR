@@ -1,0 +1,3 @@
+[submodule "ORB_SLAM2"]
+	path = ORB_SLAM2
+	url = git@github.com:eugenelyj/ORB_SLAM2_DELTAR.git

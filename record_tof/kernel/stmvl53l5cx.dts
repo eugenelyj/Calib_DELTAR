@@ -1,0 +1,25 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2835";
+
+    fragment@0 {
+        target = <&i2c1>;
+
+        __overlay__ {
+            status = "okay";
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            stmvl53l5cx: stmvl53l5cx {
+                compatible = "st,stmvl53l5cx";
+                reg = <0x29>;
+                status = "okay";
+            };
+        };
+    };
+
+};
+
+

@@ -1,0 +1,3 @@
+[submodule "ext/sophus-ceres"]
+	path = ext/sophus-ceres
+	url = https://github.com/stevenlovegrove/Sophus.git

@@ -1,0 +1,10 @@
+*.pyc
+*.ipynb
+L5_output.txt
+icp/build
+.vscode
+**/build
+**/.idea
+**/cmake-build-debug
+results*/
+*.png
